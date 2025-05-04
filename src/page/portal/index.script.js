@@ -88,7 +88,7 @@ restaurantData.menu.forEach(category => {
         menuCard.classList.add('menu-card');
 
         const image = document.createElement('img');
-        const imgPath = "../../assets/images/menu/"
+        const imgPath = "./assets/images/menu/"
         image.src = `${imgPath}${encodeURIComponent(item.img)}`; // แทนที่ด้วย URL รูปจริง
         image.alt = item.name;
         menuCard.appendChild(image);
