@@ -23,9 +23,9 @@ const dataFoundation = {
                 { id: "203b1673-d177-4ab7-abba-175b077708b2", img: "009x.png", name: "ข้าวหมูกรอบฮ่องกง", price: 60 },
                 { id: "d5e88292-994b-4e9c-93e1-1feefaecf19b", img: "007x.png", name: "ข้าวหมูแดงหมูกรอบ", price: 70 },
                 { id: "29f43ea8-9322-4930-8c4b-5650090988fe", img: "010x.png", name: "ข้าวคอหมูย่างจิ้มแจ่ว", price: 70 },
-                { id: "6e1f138e-2c30-4fb8-b9a6-3c217bec718e", img: "011x.png", name: "หมูแดงย่าง (เตาถ่าน) จานละ", price: 100 },
-                { id: "a8a75b11-2268-49a1-be33-e020ace180a0", img: "012x.png", name: "หมูกรอบฮ่องกง จานละ", price: 100 },
-                { id: "f4aa8eb7-2f5e-4bf6-8743-7042bb2ea142", img: "013.png", name: "คอหมูย่าง จานละ", price: 100 },
+                { id: "6e1f138e-2c30-4fb8-b9a6-3c217bec718e", img: "011x.png", name: "หมูแดงย่าง (เตาถ่าน)", price: 100 },
+                { id: "a8a75b11-2268-49a1-be33-e020ace180a0", img: "012x.png", name: "หมูกรอบฮ่องกง", price: 100 },
+                { id: "f4aa8eb7-2f5e-4bf6-8743-7042bb2ea142", img: "013x.png", name: "คอหมูย่าง", price: 100 },
             ],
         },
         {
