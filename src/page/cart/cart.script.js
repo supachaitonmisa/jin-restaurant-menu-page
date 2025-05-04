@@ -1,5 +1,5 @@
 const cartCounter = document.getElementById("cart-counter-id")
-const cartPageMenuContainer = document.getElementById('menu-container');
+const cartPageMenuContainer = document.getElementById('menu-container-cart-page');
 // const specialInfoContainer = document.getElementById('special-info-container');
 // const menuJumpLinks = document.querySelector('.menu-jump-links');
 
