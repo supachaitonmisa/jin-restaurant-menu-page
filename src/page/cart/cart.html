@@ -3,26 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>จินโภชนา - เมนูอาหาร</title>
+    <title>จินโภชนา - ตระกร้า</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="./src/css/index.style.css">
+    <link rel="stylesheet" href="../../css/index.style.css">
 </head>
 <body>
 
     <div class="container-fluid">
         <header class="header">
             <div class="logo">
-                <img src="./assets/images/logo/jin.png" alt="">
+                <img onclick="backHome()" src="../../../assets/images/logo/jin.png" alt="">
             </div>
             
-            <span onclick="viewCartClick()" style="color: whitesmoke;"><i class="fas fa-heart"></i> <span id="cart-counter-id"></span></span>
+            <span onclick="backHome()" style="color: whitesmoke;"><i class="fas fa-reply"></i></span>
         </header>
 
-        <div class="menu-jump-links">
-        </div>
-
         <section class="menu-list" id="menu-container">
+
         </section>
 
         <div class="special-info" id="special-info-container">
@@ -32,12 +30,12 @@
             <p>&copy; 2025 จินโภชนา. สงวนลิขสิทธิ์.</p>
         </footer>
     </div>
-    <script src="./src/constant/data.js"></script>
+    <script src="../../constant/data.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="./src/utils/func-utils.js"></script>
-    <script src="./src/storage/storage-handle.js"></script>
-    <script src="./src/page/cart/cart.script.js"></script>
-    <script src="./src/page/portal/index.script.js"></script>
+    <script src="../../utils/func-utils.js"></script>
+    <script src="../../storage/storage-handle.js"></script>
+    <script src="./cart.script.js"></script>
+    <!-- <script src="../portal/index.script.js"></script> -->
 
 </body>
 </html>
