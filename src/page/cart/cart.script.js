@@ -4,7 +4,7 @@ const cartPageMenuContainer = document.getElementById('menu-container');
 // const menuJumpLinks = document.querySelector('.menu-jump-links');
 
 function backHome() {
-    return window.location = "/"
+    return window.location.href = "/"
 }
 function reCounterItem() {
     try {
@@ -71,7 +71,7 @@ function removeToCart(menuId) {
 
 
 function viewCartClick() {
-    return window.location = "./src/page/cart/cart.html"
+    return window.location.href = "./src/page/cart/cart.html"
 }
 function validateUniqMenuId(cartUser, menuId) {
     try {
