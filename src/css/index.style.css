@@ -1,0 +1,178 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #343a40;
+    padding-top: 95px;
+}
+
+/* Header Styles */
+.header {
+    background-color: #bf1d1d;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.logo img {
+    max-height: 40px;
+}
+
+.restaurant-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.cart {
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+/* Menu Jump Links Styles */
+.menu-jump-links {
+    background-color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-bottom: 2px solid #dc3545;
+    position: fixed;
+    top: 62px;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+
+.menu-jump-links a {
+    color: #dc3545;
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin-right: 1rem;
+}
+
+.menu-jump-links a:hover {
+    text-decoration: underline;
+    color: #c82333;
+}
+
+.menu-jump-links::-webkit-scrollbar {
+    display: none;
+}
+
+.menu-jump-links {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* Menu List Styles */
+.menu-list {
+    padding: 1rem;
+}
+
+.menu-group-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    border-bottom: 3px solid #dc3545;
+    padding-bottom: 0.25rem;
+    margin-top: 2rem;
+    color: #343a40;
+}
+
+.menu-card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    display: flex;
+    align-items: center;
+}
+
+.menu-card img {
+    max-width: 120px;
+    height: auto;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+    object-fit: cover; /* เพิ่มการครอบรูปภาพ */
+    aspect-ratio: 1 / 1; /* กำหนดอัตราส่วน 1:1 */
+}
+
+.menu-card-info {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.menu-card-name {
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+    color: #343a40;
+}
+
+.menu-card-description {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-bottom: 0.5rem;
+}
+
+.menu-card-prices {
+    font-weight: bold;
+    color: #28a745;
+    margin-bottom: 0.5rem;
+}
+
+.menu-card .btn-primary {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: #ffffff;
+    width: auto;
+    font-size: 0.8rem;
+    padding: 0.25rem 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.menu-card .btn-primary i {
+    margin-left: 0.5rem;
+}
+
+.menu-card .btn-primary:hover {
+    background-color: #c82333;
+    border-color: #c82333;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Special Info Styles */
+.special-info {
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #6c757d;
+}
