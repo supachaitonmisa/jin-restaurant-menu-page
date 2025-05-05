@@ -88,6 +88,10 @@ body {
     color: #343a40;
 }
 
+/* .menu-jump-links-text{
+    font-size: 18pt;
+} */
+
 .menu-card {
     background-color: #ffffff;
     border: 1px solid #e0e0e0;
@@ -191,3 +195,9 @@ body {
     width: 100%;
     text-align: end !important;
 }
+
+/* .fa-heart-hover:corner-present{
+    font-size: 16pt;
+    font-weight: bold;
+    color: rgb(245, 245, 245) !important;
+} */
